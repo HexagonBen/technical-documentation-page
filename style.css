@@ -1,0 +1,75 @@
+#navbar {
+    position: fixed;
+      top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 300px;
+    min-width: 300px;
+    padding: 10px 0px;
+    border-right: solid;
+    border-color: rgb(50, 50, 50, 1);
+  }
+  .nav-link {
+  color: grey;
+  font-size: 1.5rem;
+  }
+  .nav-link:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  } 
+  #navbar li {
+    
+    border-top: 1px solid;
+    list-style: none;
+    width: 100%;
+  }
+  #navbar a {
+    display: block; 
+    padding: 10px 30px;
+    text-decoration: none; 
+    cursor: pointer;
+  }
+  navbar a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  header {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8rem;
+  }
+  #main-doc {
+    margin-left: 310px;
+    padding: 20px;
+  }
+  .main-section {
+    border-top: 2px solid grey;
+  }
+  section article {
+    margin: 15px;
+  }
+  code {
+    font-family: times new roman;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 800px){
+  nav-bar {
+    position: absolute;
+    max-height: 300px;
+    max-width: 300px;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    padding: 75px 0px;
+    }
+  }
